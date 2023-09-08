@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> HNGx Stage One - Frontend Track</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <!-- Slack Name -->
+        <h1 >Slack Name: <span id="slackUserName" data-testid="slackUserName">Classic Codez</span></h1>
+    
+        <!-- Slack Display Picture -->
+        <img
+          id="slackDisplayImage"
+          src="profile.jfif"
+          alt="Classic Codez"
+          data-testid="slackDisplayImage"
+        />
+    
+        <!-- Current Day of the Week -->
+        <p data-testid="currentDayOfTheWeek">
+          Day: <span id="currentDayOfTheWeek"></span>
+        </p>
+    
+        <!-- Current UTC Time -->
+        <p data-testid="currentUTCTime">Time: <span id="currentUTCTime"></span></p>
+    
+        <!-- Track -->
+        <p>My Track: <span id="myTrack" data-testid="myTrack">Frontend</span></p>
+
+        <p>Github URL: <span><a data-testid="githubURL" href="https://github.com/Classic-The-Demigod/HNGx-Stage-One-Frontend-Task.git" target="_blank">Link</a></span></p>
+    </div>
+
+  </body>
+  <script src="script.js"></script>
+</html>

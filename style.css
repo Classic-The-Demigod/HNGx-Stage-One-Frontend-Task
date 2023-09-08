@@ -1,0 +1,33 @@
+        /* styling the coontainer */
+        body {
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-direction: center;
+            background-color: burlywood;
+            border-radius: 10px;
+            border: 5px solid brown;
+        }
+
+            /* styling the slack display image */
+        #slackDisplayImage {
+            width: 200px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            transition: opacity 1s ease-in-out;
+        }
+
+        #slackDisplayImage:hover {
+            opacity: 0.8;
+        }
+
+        /* styling the paragraph tags */
+        p{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
